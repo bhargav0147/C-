@@ -5,12 +5,12 @@
 using namespace std;
 main()
 {
-	float a,b;
-	
-	cout<<"Enter The Value"<<endl;
-	cin>>a;
-	
-	b=sqrt(a);
-	
-	cout<<"Root Is := "<<b;
+	float b;
+	int i,a[5]={25,81,49,36,64};
+
+	for(i=0;i<5;i++)
+	{
+		b=sqrt(a[i]);
+		cout<<a[i]<<" = Root Is := "<<b<<endl;
+	}
 }
