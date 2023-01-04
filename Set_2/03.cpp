@@ -13,7 +13,7 @@ main()
 	mul(a);
 	
 }
-void mul (int b)
+inline void mul (int b)
 {
 	int n=1;
 	while(n<=10)
